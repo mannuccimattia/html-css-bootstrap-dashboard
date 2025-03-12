@@ -40,7 +40,8 @@
           </li>
         </ul>
         <form class="d-none" role="search">
-          <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search" data-bs-theme="light">
+          <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Search"
+            data-bs-theme="light">
           <button class="btn btn-outline-light" type="submit">Cerca</button>
         </form>
       </div>
@@ -48,7 +49,37 @@
   </nav>
   <!-- root row -->
   <div class="container">
-    
+    <div class="row my-4">
+      <div class="col-12">
+        <h3 class="fw-semibold">Nuovo libro</h3>
+      </div>
+    </div>
+    <!-- nome, cognome, titolo -->
+    <div class="row my-4">
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label fw-semibold">Nome Autore</label>
+          <input type="text" class="form-control" id="exampleFormControlInput1"
+            placeholder="Inserisci il nome dell'autore">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label fw-semibold">Cognome Autore</label>
+          <input type="text" class="form-control" id="exampleFormControlInput2"
+            placeholder="Inserisci il cognome dell'autore">
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="mb-3">
+          <label for="exampleFormControlInput3" class="form-label fw-semibold">Titolo</label>
+          <input type="text" class="form-control" id="exampleFormControlInput3"
+            placeholder="Inserisci il titolo del libro">
+          <div class="form-text">Titolo versione italiana</div>
+        </div>
+      </div>
+    </div>
+     
   </div>
   <!-- bootstrap script cdn -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
