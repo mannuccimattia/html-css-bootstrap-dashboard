@@ -54,82 +54,84 @@
         <h3 class="fw-semibold">Nuovo libro</h3>
       </div>
     </div>
-    <!-- nome, cognome, titolo -->
-    <div class="row my-4">
-      <div class="col-6">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label fw-semibold">Nome Autore</label>
-          <input type="text" class="form-control" id="exampleFormControlInput1"
-            placeholder="Inserisci il nome dell'autore">
-        </div>
-      </div>
-      <div class="col-6">
-        <div class="mb-3">
-          <label for="exampleFormControlInput2" class="form-label fw-semibold">Cognome Autore</label>
-          <input type="text" class="form-control" id="exampleFormControlInput2"
-            placeholder="Inserisci il cognome dell'autore">
-        </div>
-      </div>
-      <div class="col-12">
-        <div class="mb-3">
-          <label for="exampleFormControlInput3" class="form-label fw-semibold">Titolo</label>
-          <input type="text" class="form-control" id="exampleFormControlInput3"
-            placeholder="Inserisci il titolo del libro">
-          <div class="form-text">Titolo versione italiana</div>
-        </div>
-      </div>
-    </div>
-    <!-- genere, anno, isbn -->
-    <div class="row row-cols-1 row-cols-lg-3 my-4">
-      <div class="col mb-3">
-        <label for="exampleFormControlInput4" class="form-label fw-semibold">Genere</label>
-        <select class="form-select" id="exampleFormControlInput4" aria-label="Scegli il genere">
-          <option selected>Scegli il genere</option>
-          <option value="1">Romanzo</option>
-          <option value="2">Thriller</option>
-          <option value="3">Poliziesco</option>
-          <option value="4">Fantasy</option>
-          <option value="5">Biografia</option>
-          <option value="6">Bambini</option>
-          <option value="7">Narrativa</option>
-        </select>
-      </div>
-      <div class="col">
-        <div class="mb-3">
-          <label for="exampleFormControlInput5" class="form-label fw-semibold">Anno di pubblicazione</label>
-          <input type="text" class="form-control" id="exampleFormControlInput5"
-            placeholder="Inserisci l'anno">
-        </div>
-      </div>
-      <div class="col">
-        <div class="mb-3">
-          <label for="exampleFormControlInput6" class="form-label fw-semibold">ISBN#</label>
-          <input type="text" class="form-control" id="exampleFormControlInput6"
-            placeholder="Inserisci il codice ISBN#">
-        </div>
-      </div>
-    </div>
-    <hr>
-    <!-- note  -->
-    <div class="row row-cols-1">
-      <div class="col">
-        <div class="mb-3">
-          <label for="exampleFormControlInput7" class="form-label fw-semibold">Note</label>
-          <textarea class="form-control" id="exampleFormControlInput7" aria-label="With textarea" placeholder="Inserisci eventuali note sul libro" rows="5"></textarea>
-        </div>
-        <div class="mb-3">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheck">
-            <label class="form-check-label fw-medium" for="flexCheck">
-              Disponibile anche in digitale
-            </label>
+    <form>
+      <!-- nome, cognome, titolo -->
+      <div class="row my-4">
+        <div class="col-6">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label fw-semibold">Nome Autore</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1"
+              placeholder="Inserisci il nome dell'autore">
           </div>
         </div>
-        <div class="mb-3">
-          <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+        <div class="col-6">
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label fw-semibold">Cognome Autore</label>
+            <input type="text" class="form-control" id="exampleFormControlInput2"
+              placeholder="Inserisci il cognome dell'autore">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="mb-3">
+            <label for="exampleFormControlInput3" class="form-label fw-semibold">Titolo</label>
+            <input type="text" class="form-control" id="exampleFormControlInput3"
+              placeholder="Inserisci il titolo del libro">
+            <div class="form-text">Titolo versione italiana</div>
+          </div>
         </div>
       </div>
-    </div> 
+      <!-- genere, anno, isbn -->
+      <div class="row row-cols-1 row-cols-lg-3 my-4">
+        <div class="col mb-3">
+          <label for="exampleFormControlInput4" class="form-label fw-semibold">Genere</label>
+          <select class="form-select" id="exampleFormControlInput4" aria-label="Scegli il genere">
+            <option selected>Scegli il genere</option>
+            <option value="1">Romanzo</option>
+            <option value="2">Thriller</option>
+            <option value="3">Poliziesco</option>
+            <option value="4">Fantasy</option>
+            <option value="5">Biografia</option>
+            <option value="6">Bambini</option>
+            <option value="7">Narrativa</option>
+          </select>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput5" class="form-label fw-semibold">Anno di pubblicazione</label>
+            <input type="text" class="form-control" id="exampleFormControlInput5" placeholder="Inserisci l'anno">
+          </div>
+        </div>
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput6" class="form-label fw-semibold">ISBN#</label>
+            <input type="text" class="form-control" id="exampleFormControlInput6"
+              placeholder="Inserisci il codice ISBN#">
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- note -->
+      <div class="row row-cols-1">
+        <div class="col">
+          <div class="mb-3">
+            <label for="exampleFormControlInput7" class="form-label fw-semibold">Note</label>
+            <textarea class="form-control" id="exampleFormControlInput7" aria-label="With textarea"
+              placeholder="Inserisci eventuali note sul libro" rows="5"></textarea>
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+              <label class="form-check-label fw-medium" for="flexCheck">
+                Disponibile anche in digitale
+              </label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
   <!-- bootstrap script cdn -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
