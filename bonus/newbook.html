@@ -81,7 +81,7 @@
     </div>
     <!-- genere, anno, isbn -->
     <div class="row row-cols-1 row-cols-lg-3 my-4">
-      <div class="col">
+      <div class="col mb-3">
         <label for="exampleFormControlInput4" class="form-label fw-semibold">Genere</label>
         <select class="form-select" id="exampleFormControlInput4" aria-label="Scegli il genere">
           <option selected>Scegli il genere</option>
@@ -106,6 +106,27 @@
           <label for="exampleFormControlInput6" class="form-label fw-semibold">ISBN#</label>
           <input type="text" class="form-control" id="exampleFormControlInput6"
             placeholder="Inserisci il codice ISBN#">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- note  -->
+    <div class="row row-cols-1">
+      <div class="col">
+        <div class="mb-3">
+          <label for="exampleFormControlInput7" class="form-label fw-semibold">Note</label>
+          <textarea class="form-control" id="exampleFormControlInput7" aria-label="With textarea" placeholder="Inserisci eventuali note sul libro" rows="5"></textarea>
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+            <label class="form-check-label fw-medium" for="flexCheck">
+              Disponibile anche in digitale
+            </label>
+          </div>
+        </div>
+        <div class="mb-3">
+          <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
         </div>
       </div>
     </div> 
